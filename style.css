@@ -14,12 +14,28 @@
     padding: 0.4em 2em;
     margin-top: 1em;
     border-radius: 6px;
+    box-shadow: 7px 7px 7px #000;
+}
+.red {
+    border: 1px solid red;
 }
 .main {
     height: 760px;
 }
+/* .lp-maket {
+    text-decoration: none;
+} */
 .landing_page {
-    background: url("img/preview.jpg") no-repeat center left;
+    background: url("img/preview.jpg") no-repeat center center;
+    background-size: cover;
+    border: 1px solid black;
+    display: block;
+    height: 15em;
+    width: 25em;
+    box-shadow: 7px 7px 7px #000;
+}
+.profi-travel {
+    background: url("img/profi-travel.jpg") no-repeat center center;
     background-size: cover;
     border: 1px solid black;
     display: block;
