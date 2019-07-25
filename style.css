@@ -6,7 +6,8 @@
     color: blanchedalmond;
 }
 .container-fluid {
-    background: url("img/bd.jpg") no-repeat center top;
+    background: grey;
+    /* background: url("img/bd.jpg") no-repeat center top; */
 }
 .navbar-brand {
     color: #000;
@@ -20,7 +21,7 @@
     border: 1px solid red;
 }
 .main {
-    height: 760px;
+    height: 990px;
 }
 /* .lp-maket {
     text-decoration: none;
@@ -36,6 +37,15 @@
 }
 .profi-travel {
     background: url("img/profi-travel.jpg") no-repeat center center;
+    background-size: cover;
+    border: 1px solid black;
+    display: block;
+    height: 15em;
+    width: 25em;
+    box-shadow: 7px 7px 7px #000;
+}
+.sweetgreens {
+    background: url('img/sweetgreens.jpg') no-repeat center center;
     background-size: cover;
     border: 1px solid black;
     display: block;
