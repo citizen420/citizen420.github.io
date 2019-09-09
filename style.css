@@ -1,70 +1,98 @@
-* {
-    font-size: 16px;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    color: blanchedalmond;
-}
-.container-fluid {
-    background: grey;
-    /* background: url("img/bd.jpg") no-repeat center top; */
-}
-.navbar-brand {
-    color: #000;
-    background-color: azure;
-    padding: 0.4em 2em;
-    margin-top: 1em;
-    border-radius: 6px;
-    box-shadow: 7px 7px 7px #000;
-}
 .red {
     border: 1px solid red;
 }
-.main {
-    height: 990px;
-}
-/* .lp-maket {
-    text-decoration: none;
-} */
-.landing_page {
-    background: url("img/preview.jpg") no-repeat center center;
-    background-size: cover;
-    border: 1px solid black;
-    display: block;
-    height: 15em;
-    width: 25em;
-    box-shadow: 7px 7px 7px #000;
-}
-.profi-travel {
-    background: url("img/profi-travel.jpg") no-repeat center center;
-    background-size: cover;
-    border: 1px solid black;
-    display: block;
-    height: 15em;
-    width: 25em;
-    box-shadow: 7px 7px 7px #000;
-}
-.sweetgreens {
-    background: url('img/sweetgreens.jpg') no-repeat center center;
-    background-size: cover;
-    border: 1px solid black;
-    display: block;
-    height: 15em;
-    width: 25em;
-    box-shadow: 7px 7px 7px #000;
-}
-.blue {
-    border: 1px solid blue;
-}
-.decoration-none {
-    text-decoration: none;
-    color: black;
-}
-.decoration-none:hover {
-    text-decoration: none;
-    color: black;
-}
-.custom-border {
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
     
-    /* border-top: 3px solid black; */
+}
+ {
+    
+}
+.nav-link {
+    text-decoration: none;
+    color: #A9A3A3;
+}
+
+.nav-link:hover {
+    
+    color: #796E6E;
+}
+
+.nav-link:active {
+    
+    color: #000;
+}
+/* зачеркивает текст в меню */
+.overline {
+    text-decoration: line-through;
+}
+/* items в меню посередине */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+/* шрифт для записи */
+.number {
+    font-family: 'Noto Serif', serif;
+    font-size: 2em;
+    padding-top: 2em;
+    text-align: center;
+}
+/* post style */
+.post {
+    padding-top: 5em;
+}
+/* preview style */
+.preview {
+    border: 1px solid #000;
+    height: 25em;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.preview:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.prev-image1 {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("img/1.jpg");
+}
+.prev-image2 {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    url("img/2.jpg");
+}
+/* текст поста */
+.desc {
+    padding-top: .7em;
+    padding-left: 0.4em;
+    font-size: 1.7em;
+}
+/* section отступы */
+section:last-child {
+    padding-bottom: 5em;
+}
+
+footer {
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    
+}
+.up {
+    background-color: #C4C4C4;
+    text-decoration: none;
+    color: #696464;
+    font-size: 1.1em;
+}
+.up:hover {
+    text-decoration: none;
+    color: #696464;
+    font-size: 1.1em;
 }

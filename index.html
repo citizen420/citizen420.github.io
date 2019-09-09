@@ -1,58 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="yandex-verification" content="cb0a113428020a33" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>citizen420.portfolio</title>
+    <meta name='description' content='Мое фронтенд портфолио'>
     <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
+    <!-- шрифт roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- шрифт noto serif -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>frontend portfolio</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-        <div class="container main">
-            <div class="row">
-                <div class="nav navbar-brand p-4 text-left">Welcome citizen.<br>Here is my portfolio:</div>
-            </div>
-            <div class="row custom-border pt-3 pl-5">
-                <div class="col-5 text-center d-flex flex-column">
-                    <a href="landing page/index.html" class="decoration-none"><p class="text-center font-weight-bold mb-3 mt-3">Landing Page (pixel perfect, адаптив)<br>html+css+bootstrap</p></a>
-                    <a href="landing page/index.html" class="landing_page"></a>
-                    <a href="landing page/landing-page.jpg" class="pt-4"><h4>Скачать макет</h4></a>
-                </div>
-                <div class="col-5 text-center d-flex flex-column">
-                  <a href="profi.travel/index.html" class="decoration-none"><p class="text-center font-weight-bold mb-3 mt-3">Статическая страница (pixel perfect, адаптив)<br>html+css</p></a>
-                  <a href="profi.travel/index.html" class="profi-travel"></a>
-                  <a href="profi.travel/schedule1600.jpg" class="pt-4"><h4>Скачать макет</h4></a>
-              </div>
-<!--               <div class="col-5 text-center d-flex flex-column pt-5">
-                <a href="https://sweetgreens.ru" class="decoration-none"><p class="text-center font-weight-bold mb-3 mt-3">landing page (адаптив)<br>html+css+scss+bootstrap</p></a>
-                <a href="https://sweetgreens.ru" class="sweetgreens"></a>
-                <!-- <a href="profi.travel/schedule1600.jpg" class="pt-4"><h4>Скачать макет</h4></a> -->
-            </div> -->
-            </div>
-        </div>
-    </div>
+    <!-- add jquery -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <!-- add js -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="container" id="menu">
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">sites</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link overline">games</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link overline">blog</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://t.me/citizen420" class="nav-link">telegram</a>
+            </li>
+        </ul>
+    </header>
+    <main class="container">
+        <section class="post">
+            <div ><p class="number">I.</p></div>
+            <div class="container preview  prev-image1"></div>
+            <div class="desc"><p>
+                Landing page
+            </p></div>
+        </section>
+        <section class="post">
+            <div ><p class="number">II.</p></div>
+            <div class="container preview prev-image2"></div>
+            <div class="desc"><p>
+                Posts page
+            </p></div>
+        </section>
+    </main>
+    <footer class="up">
+        <a class="d-block up" href="#">
+            <i class="material-icons up">
+            keyboard_arrow_up
+            </i>
+            <p class="">UP</p>
+        </a>
+    </footer>
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-  ym(54347485, "init", {
-       clickmap:true,
-       trackLinks:true,
-       accurateTrackBounce:true,
-       webvisor:true
-  });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/54347485" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
